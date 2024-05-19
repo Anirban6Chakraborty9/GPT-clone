@@ -1,0 +1,202 @@
+*{
+        margin: 0;
+        padding:0;
+        box-sizing:border-box;
+}
+
+html{
+        font-size: 62.5%;
+}
+
+body{
+        background-color: rgb(3, 0, 31);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+}
+
+.App{
+        min-height:100vh;
+        display: flex;
+}
+
+.sidebar{
+        flex:3;
+        border-right: 1.5px solid gray;
+        min-width: 25vw;
+}
+
+.main{
+        flex:9;
+        min-width: 75vw;
+}
+
+.logo{
+        margin-right: 1rem;
+}
+
+.brand{
+        font-size: 4rem;
+}
+
+.sidetop{
+        padding: 3rem;
+        border-bottom: 1.5px solid gray;
+        height: 75%;
+}
+
+.gptname{
+        display: flex;
+        align-items: center;
+        margin-bottom: 2.5rem;
+}
+
+.addbtn{
+        height: 24px;
+        /* margin-right: 1rem; */
+        padding-right: 1rem;
+}
+
+.midbtn{
+        background-color:#7900F4;
+        color: white;
+        border: none;
+        padding: 1rem;
+        font-size: 1.7rem;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 100%;    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 2.3rem;
+}
+
+.midbtn:hover{
+        background-color:#6e04d8;
+}
+
+.popular{
+        font-size: 1.5rem;
+        margin-top: 0.8rem;
+        margin-bottom: 1.4rem;
+}
+
+.previouschats{
+        display: flex;
+        flex-direction: column;
+}
+
+.queryimg{
+        margin-right: 1rem;
+        object-fit: cover;
+}
+
+.query{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        background: transparent;
+        background-color: rgba(240, 248, 255,0.3);
+        border: none;
+        /* border: 1px solid white; */
+        padding: 1rem;
+        width: 100%;
+        margin-bottom: 1rem;
+        color: white;
+        border-radius: 10px;
+}
+
+/* .query:hover{
+} */
+
+.sidebottom{
+        padding: 2rem 3rem 0rem 3rem;
+        font-size: 1.6rem;
+}
+
+.itemimg{
+        margin-right: 1rem;
+}
+
+.items{
+        margin: 0.5rem 0rem 1rem 0rem ;
+}
+
+.main{
+        min-height: calc(100vh -14rem);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin:3rem auto 1rem auto;
+}
+
+.chatInput{
+        display: flex;
+        gap:0.5rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: auto;
+}
+
+.chats{
+        overflow: hidden;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+        width: 100%;
+        max-width: 72rem;
+        height: calc(100vh - 17rem);
+}
+      
+.chats::-webkit-scrollbar {
+       display: none; 
+      } 
+
+.chaticon{
+        object-fit: cover;
+        width: 3rem;
+        border-radius: 0.5rem;
+        margin-right:  2rem;
+}
+
+.msg{
+        display: flex;
+        align-items: flex-start;
+        background-color: rgba(178, 216, 250, 0.3);
+        padding: 2rem 2rem;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+        font-size: 1.3rem;
+        text-align: justify;
+        line-height: 2rem;
+        color: rgba(222, 222, 222, 1);
+}
+
+.bot{
+        background-color: rgba(113, 246, 184, 0.3);  
+}
+
+.inp{
+        padding:1rem;
+        background-color: rgba(150, 123, 223, 0.3);
+        display: flex;
+        width: 80%;
+        border-radius: 10px;
+        margin-bottom: 0.8rem;
+}
+
+.inp>input{
+        outline: none;
+        color: white;
+        font-size: 1.5rem;
+        width: calc(100% - 3rem);
+        padding: 1rem;
+}
+
+.inp>input,.sendbtn{
+        background:transparent;
+        border: none;
+
+}
