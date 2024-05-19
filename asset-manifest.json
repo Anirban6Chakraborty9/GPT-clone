@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ChatGPT-Clone/static/css/main.1076f93f.css",
+    "main.js": "/ChatGPT-Clone/static/js/main.bd7a5448.js",
+    "static/media/chatgptLogo.png": "/ChatGPT-Clone/static/media/chatgptLogo.2f8f0e192f1f0925a2ff.png",
+    "static/media/user-icon.png": "/ChatGPT-Clone/static/media/user-icon.79487ebd1120a8a7b004.png",
+    "static/media/chatgptIcon.svg": "/ChatGPT-Clone/static/media/chatgptIcon.496558ea071637d128587cb98b0e1b1c.svg",
+    "static/media/rocket.svg": "/ChatGPT-Clone/static/media/rocket.3083828716c5d7716f71aa7e179555de.svg",
+    "static/media/send.svg": "/ChatGPT-Clone/static/media/send.5cc05986cf306ae5d4ce38bf6fdc3def.svg",
+    "static/media/bookmark.svg": "/ChatGPT-Clone/static/media/bookmark.c2178bf87e70a458757ba7290cea3ce7.svg",
+    "index.html": "/ChatGPT-Clone/index.html",
+    "static/media/home.svg": "/ChatGPT-Clone/static/media/home.54b8621214269a989c8b7627385bcd8a.svg",
+    "static/media/message.svg": "/ChatGPT-Clone/static/media/message.ef36f79693990ff17ecf42cd018fcb4e.svg",
+    "main.1076f93f.css.map": "/ChatGPT-Clone/static/css/main.1076f93f.css.map",
+    "main.bd7a5448.js.map": "/ChatGPT-Clone/static/js/main.bd7a5448.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1076f93f.css",
+    "static/js/main.bd7a5448.js"
+  ]
+}
